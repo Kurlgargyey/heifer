@@ -1,3 +1,3 @@
-const name = "default";
+const moo = require("./moo.js") ;
 
-console.log(`moo, ${name}!`);
+console.log(moo("default"));
