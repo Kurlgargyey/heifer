@@ -1,3 +1,3 @@
 import { moo } from "./moo.js";
-
-console.log(moo("default"));
+import { say } from "cowsay";
+console.log(say({ text: moo("default") }));
